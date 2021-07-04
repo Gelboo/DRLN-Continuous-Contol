@@ -28,6 +28,21 @@ The agent must get an average score of +30.0 over 100 consecutive episodes.
 
 ### Instructions
 
+
+## How to run the code
+You could use the [insturction in the DRLND GitHub repository](https://github.com/udacity/deep-reinforcement-learning#dependencies) to setup the Deep-Reinforcement-Leanring environment 
+
+Which highlighting these steps
+1. create a conda virenv ``` conda create -n drlnd python=3.6```
+2. cd to the downloaded repo ``` cd /Download_path/DRLND-naviigation ``` ** 'Download_path' ** the location where you download the repo
+3. activate the conda environment ``` conda activate drlnd ```
+4. install the packages ``` pip install . ```
+5. create IPython kernel ``` python -m ipykernel install --user --name drlnd --display-name "drlnd" ``` 
+6. open jupyter-notebook in the root-directory and open Navigation.ipynb ``` jupyter notebook Navigation.ipynb ```
+7. Execute the secions in the notebook
+
+For more info about setting the environmet, please follow [the instructions in the DRLND GitHub repository](https://github.com/udacity/deep-reinforcement-learning#dependencies)
+
 Follow the instructions in `Continuous_Control.ipynb` to get started with training your own agent!  
 
 ## You can test the result by running the Test Section
