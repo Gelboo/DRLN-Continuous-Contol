@@ -1,15 +1,11 @@
-[//]: # (Image References)
-
-[image1]: (environment.gif) "Trained Agent"
-
-# Project 1: Continuous-Control
+# Project 2: Continuous-Control
 
 ### Introduction
 
-For this project, we will train an agent to follow an object. 
-You can check this youtube-link (https://www.youtube.com/watch?v=ZVIxt2rt1_4) 
+![Example](environment.gif)
 
-![Trained Agent][image1]
+For this project, we will train an agent to follow an object. 
+You can check this [youtube-link](https://www.youtube.com/watch?v=ZVIxt2rt1_4) 
 
 The environment cosist of 33 states, considering the posistion, rotation, velocity, and angular velocieties 
 Each Action is Vector of 4 numbers, corresponding to force applied to two joints, each number is between -1 and 1
